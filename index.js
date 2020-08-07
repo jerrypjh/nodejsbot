@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-  if(message.content === 'ping') {
+  if(message.content === '!좌표 막둥바보','막둥바보') {
     message.reply('pong');
   }
 });
