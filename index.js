@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '테스트') {
-    message.reply('정상');
+  if(message.content === '테스트1') {
+    message.reply('정상1');
   }
 });
 
