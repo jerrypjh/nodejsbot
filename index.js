@@ -7,14 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '!좌표 test') {
-    message.reply('정상');
-  }
-});
-
-client.on('message', (message) => {
-  if(message.content === '!좌표 수달') {
-    message.reply('정상');
+  if(message.content === 'ping') {
+    message.reply('test');
   }
 });
 
