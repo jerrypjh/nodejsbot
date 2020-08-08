@@ -12,10 +12,4 @@ client.on('message', (message) => {
   }
 });
 
-client.on('message', (message) => {
-  if(message.content === '테스트1') {
-    message.reply('정상1');
-  }
-});
-
 client.login(token);
